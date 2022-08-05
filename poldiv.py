@@ -33,7 +33,7 @@ with header:
                 """)
     st.markdown('Hög politisk mångfald innebär att många olika partier får röster. '
                 'Om t.ex. 5 olika partier får 20% var av rösterna så är mångfalden högre än om bara 2 partier får 50% var.')
-    st.markdown('Jag har använt index från ekologi för att beräkna både mångfald och skillnad i röstfördelning mellan olika regioner i Sverige. '
+    st.markdown('Jag har använt index från ekologi för att beräkna både mångfald och skillnad i röstfördelning mellan olika regioner i valet till riksdagen i Sverige. '
                 'Om du är intresserad av hur dessa beräknas så kan du titta längst ner på sidan.')
     q = st.radio(label='Mångfaldsindex (mer detaljer om detta längst ner).', options=[1, 2], horizontal=True)
 
